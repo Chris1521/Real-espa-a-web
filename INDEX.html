@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Real Club Deportivo España</title>
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+    <style>
+        body {
+            background-color: #020202;
+            color: white;
+        }
+        .hero-section {
+            background-image: url('imagen-header.jpg'); /* Añade la URL de la imagen del club */
+            background-size: cover;
+            background-position: center;
+            height: 400px;
+            color: white;
+            text-align: center;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            position: relative;
+        }
+        .hero-section h1 {
+            font-size: 3.5rem;
+            text-shadow: 2px 2px 4px #000;
+            position: absolute;
+            top: 20%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            z-index: 1;
+        }
+        .hero-section img {
+            position: absolute;
+            top: 60%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            max-width: 150px;
+            z-index: 2;
+        }
+        .section-title {
+            margin: 50px 0 30px;
+            text-align: center;
+        }
+        .section-content {
+            margin-bottom: 50px;
+        }
+        .section-content img {
+            display: block;
+            margin: 0 auto 30px auto; /* Centra las imágenes */
+            max-width: 100%;
+            height: auto;
+        }
+        .footer {
+            background-color: #333;
+            color: white;
+            text-align: center;
+            padding: 20px 0;
+        }
+        .players-gallery {
+            display: flex;
+            justify-content: center;
+            gap: 20px;
+            flex-wrap: wrap; /* Permite que las imágenes se ajusten en pantallas pequeñas */
+        }
+        .players-gallery img {
+            width: 200px;
+            height: auto;
+            border-radius: 10px;
+            box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.2);
+        }
+    </style>
+</head>
+<body>
+
+    <!-- Sección Hero -->
+    <div class="hero-section">
+        <h1>Real Club Deportivo España</h1>
+        <img src="images.jpeg" alt="">
+    </div>
+
+    <!-- Sección Historia -->
+    <div class="container section-content">
+        <h2 class="section-title">Historia del Club</h2>
+        <p>El Real Club Deportivo España, conocido como "La Máquina Amarilla", es uno de los equipos de fútbol más exitosos de Honduras. Fundado en 1929 en San Pedro Sula, el club ha ganado numerosos títulos nacionales e internacionales a lo largo de su historia.</p>
+        <img src="RealezaPotadita_DZ1393725_MG87362937.jpg" alt="">
+    </div>
+
+    <!-- Sección Títulos Ganados -->
+    <div class="container section-content">
+        <h2 class="section-title">Títulos Ganados</h2>
+        <ul>
+            <li>Liga Nacional de Honduras: 12 títulos</li>
+            <li>Copa de Honduras: 3 títulos</li>
+            <li>Copa Interclubes de la UNCAF: 1 título</li>
+        </ul>
+        <img src="espana-76.jpg" alt="">
+    </div>
+
+    <!-- Sección Jugadores Destacados -->
+    <div class="container section-content">
+        <h2 class="section-title">Jugadores Destacados</h2>
+        <p>A lo largo de su historia, el club ha contado con jugadores talentosos como Mario Martinez, Eder Delgado, y Carlos Pavón, quienes han dejado una huella imborrable en el fútbol hondureño.</p>
+        <div class="players-gallery">
+            <img src="ZonaDeportiva_20182_0_EH589329_MG126523412.jpg" alt="Jugador 1">
+            <img src="dt.common.streams.StreamServer-8-2.webp" alt="Jugador 2">
+            <img src="images (1).jpeg" alt="Jugador 3">
+        </div>
+    </div>
+
+    <!-- Footer -->
+    <div class="footer">
+        <p>&copy; 2024 Real Club Deportivo España. Todos los derechos reservados.</p>
+    </div>
+
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.2/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</body>
+</html>
